@@ -13,6 +13,7 @@
    Go to the Firebase Console.
    Replace the contents of firebaseConfig.js with your Firebase configuration:
 
+   ```javascript
    const firebaseConfig = {
         apiKey: "YOUR_API_KEY",
         authDomain: "YOUR_AUTH_DOMAIN",
@@ -22,7 +23,8 @@
         appId: "YOUR_APP_ID"
         measurementId: "YOUR_ID",
       };
-4. Start the Application
+5. Start the Application
+      ```javascript
       npm start
       npm run android
       npm run web
